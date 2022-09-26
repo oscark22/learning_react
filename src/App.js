@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+
 function App() {
+  const x = true;
+
   return (
-    <>
-      <h1>Something</h1>
-    </>
+    <div className="container">
+      <Header />
+    </div>
   );
 }
 
